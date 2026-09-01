@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CoffeeShopConsoleAppNet60
+﻿public class Coffee
 {
-    internal class Coffee
+    public int Pris { get; set; }
+
+    public Coffee(int pris)
     {
+        Pris = pris;
+    }
+    public int Price()
+    {
+        return 20;
     }
 }
