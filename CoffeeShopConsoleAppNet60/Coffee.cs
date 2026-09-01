@@ -1,4 +1,4 @@
-﻿public class Coffee
+﻿public abstract class Coffee
 {
     public int Pris { get; set; }
 
@@ -6,7 +6,7 @@
     {
         Pris = pris;
     }
-    public int Price()
+    public virtual int Price()
     {
         return 20;
     }
