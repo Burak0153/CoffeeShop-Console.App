@@ -4,4 +4,9 @@
     {
 
     }
+
+    public override string Strength()
+    {
+        return "Medium";
+    }
 }
