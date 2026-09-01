@@ -10,4 +10,6 @@
     {
         return 20;
     }
+
+    public abstract string Strength();
 }
